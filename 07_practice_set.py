@@ -27,3 +27,10 @@ for i  in range(1,21):
 
 # or a formatted table (nice and clean)
 
+# write a program to greet all the persons name stored in a list l and whihc starts with s
+
+l = ['Harry',"sahil","shubham","rahul"]
+for i in l:
+    if i.startswith("s"):
+        print(i)
+        
